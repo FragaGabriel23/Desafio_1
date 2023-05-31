@@ -51,3 +51,96 @@ header h2 {
     font-size: 20px;
     line-height: 28px;
 }
+
+.section2 {
+    display: grid;
+    grid-auto-flow: column;
+    background-color: #F5F5F5;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 77px;
+}
+
+.section2 h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+
+    margin-bottom: 60px;
+}
+
+.section2 h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 25px;
+    color: #000000;
+
+    margin-bottom: 29px;
+}
+
+.div2 {
+    padding: 82px 54px 92px 0;
+    text-align: end;
+}
+
+form {
+    background-color: #303030;
+    padding: 87px 0;
+    text-align: center;
+}
+
+form h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+
+    margin-bottom: 48px;
+}
+
+form input {
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    padding: 0 0 0 30px;
+    box-sizing: border-box;
+    margin-bottom: 62px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+form input::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+form button {
+    width: 286px;
+    height: 74px;
+    background: #C07212;
+    border-radius: 10px;
+    border: none;
+    margin-top: 26px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+}

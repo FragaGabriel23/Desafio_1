@@ -122,7 +122,7 @@ form input {
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.5);
 }
 
 form input::placeholder {
@@ -132,10 +132,11 @@ form input::placeholder {
 form button {
     width: 286px;
     height: 74px;
-    background: #C07212;
+    background: rgb(192, 114, 18);
     border-radius: 10px;
     border: none;
     margin-top: 26px;
+    cursor: pointer;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -143,4 +144,9 @@ form button {
     font-size: 30px;
     line-height: 30px;
     color: #FFFFFF;
+}
+
+form button:hover {
+    box-shadow: rgba(0, 0, 0, 0.45) 0 8px 15px;
+    transform: translateY(-2px);
 }

@@ -7,8 +7,8 @@
 <h1>Challenge 1 Landing Page Architecture</h1> 
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=Netlify&message=déployer&color=blue&style=for-the-badge&logo=netlify"/>
-  <img src="http://img.shields.io/static/v1?label=STATUT&message=TERMINÉ&color=GREEN&style=for-the-badge"/>
+  <img src="https://img.shields.io/static/v1?label=Netlify&message=deploy&color=blue&style=for-the-badge&logo=netlify"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=COMPLETED&color=GREEN&style=for-the-badge"/>
 </p>
 
 > Statut du projet : :heavy_check_mark: (terminé)

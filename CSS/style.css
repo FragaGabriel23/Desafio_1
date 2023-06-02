@@ -150,3 +150,284 @@ form button:hover {
     box-shadow: rgba(0, 0, 0, 0.45) 0 8px 15px;
     transform: translateY(-2px);
 }
+
+
+ @media (max-width: 480px) {
+
+    header {
+        padding: 90px 0 80px 30px;
+    }
+
+    header h1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    header h2 {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .section1 {
+        padding: 25px 0 25px 0;
+    }
+
+    .section1 h1 {
+        line-height: 20px;
+        font-size: 17px;
+    }
+
+    .section1 h2 {
+        font-size: 7px;
+        line-height: 15px;
+    }
+
+    .section2 {
+        grid-auto-flow: row;
+    }
+
+    .div1 {
+        padding: 0 ;
+        text-align: center;
+    }
+
+    .section2 h1 {
+        font-size: 16px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+
+    .section2 h2 {
+        font-size: 9px;
+        line-height: 16px;
+        margin-bottom: 29px;
+    }
+
+    .div2 {
+        padding: 10px 20px 20px 20px;
+        text-align: center;
+    }
+
+    .div2 img {
+        width: 90%;
+    }
+
+    form h1 {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    form input {
+        width: 270px;
+        height: 60px;
+        margin-bottom: 40px;
+    }
+
+    form button {
+        width: 235px;
+        height: 60px;
+    }
+
+ }
+
+ @media (min-width: 481px) and (max-width: 768px) {
+
+    header {
+        padding: 90px 0 80px 30px;
+    }
+
+    header h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    header h2 {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .section1 {
+        padding: 25px 0 25px 0;
+    }
+
+    .section1 h1 {
+        line-height: 42px;
+        font-size: 26px;
+    }
+
+    .section1 h2 {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .section2 {
+        grid-auto-flow: row;
+    }
+
+    .div1 {
+        padding: 0 ;
+        text-align: center;
+    }
+
+    .section2 h1 {
+        font-size: 25px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+
+    .section2 h2 {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 30px;
+    }
+
+    .div2 {
+        padding: 10px 20px 20px 20px;
+        text-align: center;
+    }
+
+    .div2 img {
+        width: 90%;
+    }
+
+    form h1 {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    form input {
+        width: 270px;
+        height: 60px;
+        margin-bottom: 40px;
+    }
+
+    form button {
+        width: 235px;
+        height: 60px;
+    }
+
+ }
+
+ @media (min-width: 769px) and (max-width: 1024px) {
+
+    header {
+        padding: 90px 0 80px 30px;
+    }
+
+    header h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    header h2 {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .section1 {
+        padding: 25px 0 25px 0;
+    }
+
+    .section1 h1 {
+        line-height: 42px;
+        font-size: 35px;
+    }
+
+    .section1 h2 {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .section2 {
+        grid-auto-flow: row;
+    }
+
+    .div1 {
+        padding: 0 ;
+        text-align: center;
+    }
+
+    .section2 h1 {
+        font-size: 35px;
+        line-height: 75px;
+        margin-bottom: 25px;
+    }
+
+    .section2 h2 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+
+    .div2 {
+        padding: 10px 20px 20px 20px;
+        text-align: center;
+    }
+
+    .div2 img {
+        width: 80%;
+    }
+
+    form h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    form input {
+        width: 420px;
+        height: 70px;
+        margin-bottom: 40px;
+    }
+
+ }
+
+ @media (min-width: 1025px) and (max-width: 1200px) {
+
+    header h1 {
+        font-size: 55px;
+    }
+    
+    .div1 {
+        padding: 0 15px 0 70px;
+    }
+
+    .section2 h1 {
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+
+    .section2 h2 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .div2 img {
+        width: 75%;
+    }
+
+ }
+
+ @media (min-width: 1201px) and (max-width: 1400px) {
+    
+    .section2 h2 {
+        font-size: 20px;
+    }
+
+    .section2 h1 {
+        font-size: 34px;
+    }
+
+ }
+
+@media (min-width: 1800px) {
+    .section2 h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .section2 h2 {
+        font-size: 29px;
+        line-height: 32px;
+    }
+
+}
